@@ -17,6 +17,7 @@ export interface FormFieldProps {
   // Although Placeholder is not a prop within FormField we Omit the HTML placeholder attribute and replaced with following.
   placeholder?: PlaceHolderType;
   required?: boolean;
+  reverse?: boolean;
   component?: any;
   validate?:
     | {
